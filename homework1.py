@@ -9,7 +9,8 @@ print(2*2+2,  2*(2+2))
 print(2*2+2==2*(2+2))
 
 # 4th program
-print(type(float('123.456')))
-print(10*123.456)
-print(int(1234.56))
-print(1234%10)
+print('Задание 4. Работа над ошибками')
+num=float('123.456')*10
+print(num) #проверяем промежуточный результат
+num=int(num)%10
+print(num)
